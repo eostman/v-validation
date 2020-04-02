@@ -1,0 +1,19 @@
+coverage:
+  status:
+    project:
+      default: off
+      core:
+        target: 95%
+        flags:
+          - core
+      moment:
+        target: 95%
+        flags:
+          - core
+flags:
+  core:
+    paths:
+      - packages/core
+  moment:
+    paths:
+      - packages/moment
